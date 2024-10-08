@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("task1");
         int[] expenses = new int[5];
         expenses[0] = 23;
