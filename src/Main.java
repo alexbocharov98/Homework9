@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("task1");
-        int[] expenses = new int[5];
+        System.out.println("task1");        int[] expenses = new int[5];
         expenses[0] = 23;
         expenses[1] = 56;
         expenses[2] = 678;
@@ -15,7 +14,6 @@ public class Main {
         System.out.println("Сумма трат в месяц составила " + sum + " рублей");
 
         System.out.println("task2");
-
         int[] expenses2 = new int[5];
         expenses2[0] = 23;
         expenses2[1] = 56;
@@ -36,7 +34,6 @@ public class Main {
         System.out.println("Максимальная сумма трат за неделю составила " + max + " рублей");
 
         System.out.println("task3");
-
         int[] expenses3 = new int[5];
         expenses3[0] = 23;
         expenses3[1] = 56;
@@ -52,7 +49,6 @@ public class Main {
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
 
         System.out.println("task4");
-
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
